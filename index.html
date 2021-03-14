@@ -7,15 +7,76 @@
   <title>Homepage</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
   <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.7.3/firebase-ui-auth.css" />
+  <style type="text/css">
+    /* Dropdown Button */
+    .dropbtn {
+      background-color: #FFFFFF;
+      color: rgba(59,130,246);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      font-size: 16px;
+      border-width: 2px;
+      border-radius: .25rem;
+      border-color: rgba(59,130,246);
+      cursor: pointer;
+      display:inline-block;
+      ;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: rgba(59,130,246);
+      color: #FFFFFF;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: rgba(59,130,246); color:#FFFFFF;}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+  </style>
 </head>
 
 <body>
+  <div>
+    <h1 style="display: inline-block;">My Fitness Database</h1>
+    <a style="float: right;" href="#" id="noober-pool-filter" class="filter-button inline-block text-blue-500 rounded px-4 py-2">My Workout</a>
+    <a style="float: right;" href="#" id="noober-pool-filter" class="filter-button inline-block text-blue-500 rounded px-4 py-2">Fitness Database</a>
+  </div>
+  <br><br>
   <div class="sign-in-or-sign-out"></div>
  
   <!-- Put the Firebase config here -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
   <!-- Firebase Auth -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/ui/4.7.3/firebase-ui-auth.js"></script>
 
@@ -33,6 +94,44 @@
     firebase.initializeApp(firebaseConfig);
   </script>
   <script src="index.js"></script>
+<br><br>
+  <div class="filters md:flex justify-center space-x-2 md:space-y-0 space-y-2">
+    <div class="text-center text-xl text-blue-500 px-4 md:py-2" style="color:#000000;">Filters:</div>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Primary Muscle Trained: </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Biceps</a>
+        <a href="#">Abdominals</a>
+        <a href="#">Triceps</a>
+        <a href="#">Shoulders</a>
+        <a href="#">Back</a>
+        <a href="#">Legs</a>
+        <a href="#">Chest</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Type of Equipment:</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Free weights</a>
+        <a href="#">Gym</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Type of Movement:</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Multi-Joint</a>
+        <a href="#">Single-Joint</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Level:</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Beginner</a>
+        <a href="#">Intermediate</a>
+        <a href="#">Advanced</a>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
