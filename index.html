@@ -59,18 +59,25 @@
     .dropdown-content a:hover {background-color: rgba(59,130,246); color:#FFFFFF;}
 
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-    .show {display:block;}
+    .display-show {display:block;}
+    .display-none {display:none;}
+    .center {
+      margin: auto;
+      width: 50%;
+      border: 2px solid rgba(59,130,246,0.8);
+      padding: 10px;
+    }
   </style>
 </head>
 
 <body>
   <div>
-    <h1 style="display: inline-block;">My Fitness Database</h1>
-    <a style="float: right;" href="#" id="noober-pool-filter" class="filter-button inline-block text-blue-500 rounded px-4 py-2">My Workout</a>
-    <a style="float: right;" href="#" id="noober-pool-filter" class="filter-button inline-block text-blue-500 rounded px-4 py-2">Fitness Database</a>
+    <h1 style="display: inline-block;" id="header" class="header"></h1>
+    <a style="float: right;" href="#" id="my-workout" class="my-workout filter-button inline-block text-blue-500 rounded px-4 py-2">My Workout</a>
+    <a style="float: right;" href="#" id="fitness-database" class="fitness-database filter-button inline-block text-blue-500 rounded px-4 py-2">Fitness Database</a>
   </div>
   <br><br>
-  <div class="sign-in-or-sign-out"></div>
+  <div class="sign-in-or-sign-out text-center" style="float: center;"></div>
  
   <!-- Put the Firebase config here -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -93,13 +100,16 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   </script>
+  <script src="exercises.json"></script>
   <script src="index.js"></script>
-<br><br>
-  <div class="filters md:flex justify-center space-x-2 md:space-y-0 space-y-2">
+
+  <br><br>
+  <div class="fitness-database-filters display-none ">
+  <div class="database-filters md:flex justify-center space-x-2 md:space-y-0 space-y-2">
     <div class="text-center text-xl text-blue-500 px-4 md:py-2" style="color:#000000;">Filters:</div>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Primary Muscle Trained: </button>
-      <div id="myDropdown" class="dropdown-content">
+      <button id="muscleDropdowntext" onclick="ShowDropdown('muscleDropdown')" class="dropbtn">Primary Muscle Trained:</button>
+      <div id="muscleDropdown" class="dropdown-content ">
         <a href="#">Biceps</a>
         <a href="#">Abdominals</a>
         <a href="#">Triceps</a>
@@ -107,31 +117,128 @@
         <a href="#">Back</a>
         <a href="#">Legs</a>
         <a href="#">Chest</a>
+        <a href="#">Calves</a>
       </div>
     </div>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Type of Equipment:</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#">Free weights</a>
-        <a href="#">Gym</a>
+      <button id="equipmentDropdowntext" onclick="ShowDropdown('equipmentDropdown')" class="dropbtn">Type of Equipment:</button>
+      <div id="equipmentDropdown" class="dropdown-content">
+        <a href="#">Free Weights</a>
+        <a href="#">GYM</a>
       </div>
     </div>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Type of Movement:</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#">Multi-Joint</a>
-        <a href="#">Single-Joint</a>
+      <button id="movementDropdowntext" onclick="ShowDropdown('movementDropdown')" class="dropbtn">Type of Movement:</button>
+      <div id="movementDropdown" class="dropdown-content">
+        <a href="#">Multi-Joint Exercise</a>
+        <a href="#">Single-Joint Exercise</a>
       </div>
     </div>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Level:</button>
-      <div id="myDropdown" class="dropdown-content">
+      <button id="levelDropdowntext" onclick="ShowDropdown('levelDropdown')" class="dropbtn">Level:</button>
+      <div id="levelDropdown" class="dropdown-content">
         <a href="#">Beginner</a>
         <a href="#">Intermediate</a>
         <a href="#">Advanced</a>
       </div>
     </div>
   </div>
+
+
+  <div class="flex flex-col">
+    <div class="my-6 overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+        <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+          <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Exercice Name
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Muscles Trained
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Recommended Sets
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Recommended Reps
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                   
+                </th>
+              </tr>
+            </thead>
+
+            <tbody class="exercises bg-white divide-y divide-gray-200">
+              <!-- <tr>
+                <td class="px-6 py-4 whitespace-nowrap text-lg text-gray-500">
+                  Admin
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-lg text-gray-500">
+                  Admin
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-lg text-gray-500">
+                  Admin
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-lg text-gray-500">
+                  Admin
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                  <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  <div class="workout display-none ">
+    <div class="workout-filters md:flex justify-center space-x-2 md:space-y-0 space-y-2">
+      <!--<div class="text-center text-xl text-blue-500 px-4 md:py-2" style="color:#000000;">Filters:</div>
+      <div class="dropdown">
+        <button onclick="ShowDropdown()" class="dropbtn">Primary Muscle Trained:</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Biceps</a>
+          <a href="#">Abdominals</a>
+          <a href="#">Triceps</a>
+          <a href="#">Shoulders</a>
+          <a href="#">Back</a>
+          <a href="#">Legs</a>
+          <a href="#">Chest</a>
+        </div>
+      </div>-->
+      <div class="text-center text-xl text-blue-500 px-4 md:py-2" style="color:#000000;">Date:</div>
+      <div class="text-center text-xl border-blue-500 text-blue-500 px-4 md:py-2" >
+        <form>
+          <input type="date" id="date" name="date"><br>
+        </form>
+      </div>
+    </div>  
+    <div class="text-left"><br><br><a href="#" id="add-workout" class="add-workout inline-block border-2 border-blue-500 text-blue-500 rounded px-4 py-2" style="color:#FFFFFF; background-color:rgba(59,130,246,0.8); margin-left:15px" >Add Workout</a></div>  
+    <br><br>
+    <div class="center workout-form display-none">
+      <form id="Workout-Form">
+        <label for="ExerciseID">Exercise:</label> 
+        <input class="text-center text-xl border-blue-500 text-blue-500 px-4 md:py-2" type="text" id="ExerciseID" name="ExerciseID" value="Add dropdown from favourites" ><br>
+        <label for="date">Date:</label> 
+        <input class="text-center text-xl border-blue-500 text-blue-500 px-4 md:py-2" type="date" id="date" name="date"><br>
+        <!--<label for="Set">Set #:</label> 
+        <input class="text-center text-xl border-blue-500 text-blue-500 px-4 md:py-2" type="number" id="Set" name="Set" value="1" ><br>
+        <label for="Weight">Weight (lbs):</label> 
+        <input class="text-center text-xl border-blue-500 text-blue-500 px-4 md:py-2" type="number" id="Weight" name="Weight" value="5" ><br>
+        <label for="Reps">Reps:</label> 
+        <input class="text-center text-xl border-blue-500 text-blue-500 px-4 md:py-2" type="number" id="Reps" name="Reps" value="10" ><br><br>-->
+        <input id="submit-button" class="filter-button  inline-block border-2 border-blue-500 text-blue-500 rounded px-4 py-2" type="submit" value="Submit" onclick="WorkoutForm()">
+      </form>
+    </div>
+  </div>
+<br><br>
 </body>
 
 </html>
