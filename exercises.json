@@ -1,7 +1,7 @@
-[
+var myJson = [
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Lower",
+    "Muscles Trained": "Lower Abdominals",
     "Exercise Name": "Full Reverse Crunch",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -15,7 +15,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Lower",
+    "Muscles Trained": "Lower Abdominals",
     "Exercise Name": "Incline Hip Thrust",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -29,7 +29,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Lower",
+    "Muscles Trained": "Lower Abdominals",
     "Exercise Name": "Incline Reverse Crunch",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -43,7 +43,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Lower",
+    "Muscles Trained": "Lower Abdominals",
     "Exercise Name": "Lying Hip Thrust",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -57,7 +57,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Lower",
+    "Muscles Trained": "Lower Abdominals",
     "Exercise Name": "Reverse Crunch",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -71,7 +71,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Lower",
+    "Muscles Trained": "Lower Abdominals",
     "Exercise Name": "Reverse Medicine Ball Crunch",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -85,7 +85,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Alternating Heel Touch",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -99,7 +99,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Bent-Knee Medicine Ball Hip Rotation",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -113,7 +113,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Cable Chop",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -127,7 +127,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Cross Crunch",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -141,7 +141,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Cross Crunch w/ Medicine Ball",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -155,7 +155,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Decline Cross Sit-Up",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -169,7 +169,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Decline Sit-Up w/ Twist",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -183,7 +183,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Reverse Cable Chop",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -197,7 +197,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Seated Medicine Ball Twist",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -211,7 +211,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Obliques",
+    "Muscles Trained": "Obliques",
     "Exercise Name": "Trunk Rotator",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -225,7 +225,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Front Plank (from knees)",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -239,7 +239,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Front Plank (from toes)",
     "Level": "Intermediate",
     "Main Body Group": "Core",
@@ -253,7 +253,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Front Plank (tripod - 1 arm and 2 legs or 2 legs and 1 arm)",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -267,7 +267,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Side-Plank (from knees)",
     "Level": "Intermediate",
     "Main Body Group": "Core",
@@ -281,7 +281,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Side-Plank (hip lift)",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -295,7 +295,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Side-Plank (from toes)",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -309,7 +309,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Ab Cycle",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -323,7 +323,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Kneeling Ab Rollout",
     "Level": "Intermediate",
     "Main Body Group": "Core",
@@ -337,7 +337,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Medicine Ball V-Up",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -351,7 +351,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "V-Up",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -365,7 +365,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Total",
+    "Muscles Trained": "Full Abdominals",
     "Exercise Name": "Weighted V-Up",
     "Level": "Intermediate",
     "Main Body Group": "Core",
@@ -379,7 +379,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Bent Knee Sit-Up",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -393,7 +393,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Bent-Knee Crunch",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -407,7 +407,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Crunch",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -421,7 +421,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Decline Crunch",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -435,7 +435,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Decline Sit-Up",
     "Level": "Advanced",
     "Main Body Group": "Core",
@@ -449,7 +449,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Heel Touch",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -463,7 +463,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Sit-Up",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -477,7 +477,7 @@
   },
   {
     "Main Muscle Group": "Abdominals",
-    "Muscles Trained": "Abdominals - Upper",
+    "Muscles Trained": "Upper Abdominals",
     "Exercise Name": "Weighted Crunch",
     "Level": "Intermediate",
     "Main Body Group": "Core",
@@ -491,7 +491,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Assisted Pull-Up",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -505,7 +505,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Close-Grip Lat Pulldown",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -519,7 +519,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Inverted Pull-Up",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -533,7 +533,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Lat Pulldown",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -547,7 +547,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Pull-Up",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -561,7 +561,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Reverse-Grip Lat Pullown",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -575,7 +575,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Reverse-Grip Pull-Up",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -589,7 +589,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "V-Bar Pull-Up",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -603,7 +603,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Latissimus Dorsi",
+    "Muscles Trained": "Latissimus Dorsi",
     "Exercise Name": "Wide-Grip Lat Pulldown",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -617,7 +617,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Alternating Dumbbell Row",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -631,7 +631,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Barbell Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -645,7 +645,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Dumbbell Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -659,7 +659,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Hammer Dumbbell Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -673,7 +673,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Long Barbell Row",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -687,7 +687,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Reverse-Grip Barbell Row",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -701,7 +701,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Bent-Over Single-Arm Long Barbell Row",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -715,7 +715,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Machine Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -729,7 +729,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "One Arm Dumbbell Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -743,7 +743,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Reverse Incline Dumbbell Row",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -757,7 +757,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Rope Cable Row",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -771,7 +771,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Seated Cable Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -785,7 +785,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Seated Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -799,7 +799,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Single-Arm Cable Row",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -813,7 +813,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Single-Arm Dumbbell Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -827,7 +827,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Single-Arm Lat Pulldown",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -841,7 +841,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Standing Cable Row",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -855,7 +855,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Back - Lat.Dorsi/Rhomboids",
+    "Muscles Trained": "Lat.Dorsi/Rhomboids",
     "Exercise Name": "Standing Single-Arm Cable Row",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -1401,7 +1401,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Barbell Calf Raise",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -1415,7 +1415,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Calf Press",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -1429,7 +1429,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Calf Raise - Seated",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -1443,7 +1443,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Calf Raise - Standing",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -1457,7 +1457,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Dumbbell Calf Raise",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -1471,7 +1471,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Single-Leg Calf Press",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -1485,7 +1485,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Single-Leg Dumbbell Calf Raise",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -1499,7 +1499,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Gastrocnemius",
+    "Muscles Trained": "Gastrocnemius  (larger calf muscle)",
     "Exercise Name": "Smith Machine Calf Raise",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -1513,7 +1513,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Soleus",
+    "Muscles Trained": "Soleus",
     "Exercise Name": "Seated Calf Raise",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -1527,7 +1527,7 @@
   },
   {
     "Main Muscle Group": "Calves",
-    "Muscles Trained": "Calves - Soleus",
+    "Muscles Trained": "Soleus",
     "Exercise Name": "Seated Single-Leg Calf Raise",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -1541,7 +1541,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Alternating Dumbbell Bench Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -1555,7 +1555,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Barbell Bench Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -1569,7 +1569,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Chest Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1583,7 +1583,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Decline Dumbbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1597,7 +1597,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Decline Smith Machine Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1611,7 +1611,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Dumbbell Bench Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1625,7 +1625,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Dumbbell Push-Up",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1639,7 +1639,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Elevated Push-Up",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1653,7 +1653,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Flat Bench Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -1667,7 +1667,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Alternating Dumbbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1681,7 +1681,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Barbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1695,7 +1695,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1709,7 +1709,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Dumbbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1723,7 +1723,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Hammer Dumbbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1737,7 +1737,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Single-Arm Dumbbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1751,7 +1751,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Smith Machine Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1765,7 +1765,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Twisting Dumbbell Bench Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1779,7 +1779,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Kneeling Push-Up",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1793,7 +1793,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Machine Bench Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1807,7 +1807,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Machine Vertical Bench Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1821,7 +1821,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Medicine Ball Crossover Push-Up",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1835,7 +1835,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Push-Up",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1849,7 +1849,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Single-Arm Dumbbell Bench Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -1863,7 +1863,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Smith Machine Bench Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -1877,7 +1877,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Twisting Dumbbell Bench Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1891,7 +1891,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Wide-Grip Push-Up",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1905,7 +1905,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Cable Crossover",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1919,7 +1919,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Cable Fly",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1933,7 +1933,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Decline Dumbbell Fly",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1947,7 +1947,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Dumbbell Fly",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -1961,7 +1961,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "High Cable Crossover",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1975,7 +1975,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Cable Fly",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -1989,7 +1989,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Dumbbell Fly",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -2003,7 +2003,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Incline Twisting Dumbbell Fly",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -2017,7 +2017,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Low Cable Crossover",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -2031,7 +2031,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Pec Deck",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -2045,7 +2045,7 @@
   },
   {
     "Main Muscle Group": "Chest",
-    "Muscles Trained": "Chest - Pectoralis",
+    "Muscles Trained": "Pectoralis",
     "Exercise Name": "Pec Deck Fly",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -2059,7 +2059,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Bent-Knee Single-Leg Hip Lift",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2073,7 +2073,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Elevated Hip Lift",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2087,7 +2087,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Elevated Single-Leg Hip Lift",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2101,7 +2101,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Hip Lift",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2115,7 +2115,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Single-Leg Hip Lift",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2129,7 +2129,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Deadlift",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2143,7 +2143,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Leg Curl",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2157,7 +2157,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Lying Alternating Leg Curl",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2171,7 +2171,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Lying Leg Curl",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2185,7 +2185,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Lying Single-Leg Curl",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2199,7 +2199,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Hamstrings",
+    "Muscles Trained": "Hamstrings",
     "Exercise Name": "Seated Leg Curl",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2213,7 +2213,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Diagonal Lunge",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2227,7 +2227,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Hack Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2241,7 +2241,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2255,7 +2255,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Reverse Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2269,7 +2269,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Side Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2283,7 +2283,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Split Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2297,7 +2297,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Squat",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2311,7 +2311,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Step-Up",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2325,7 +2325,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Barbell Walking Lunge",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2339,7 +2339,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Diagonal Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2353,7 +2353,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Diagonal Lunge",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2367,7 +2367,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Lunge",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2381,7 +2381,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Reverse Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2395,7 +2395,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Side Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2409,7 +2409,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Split Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2423,7 +2423,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Squat",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2437,7 +2437,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Step-Up",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2451,7 +2451,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Dumbbell Walking Lunge",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2465,7 +2465,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Forward Lunge",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2479,7 +2479,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Lateral Barbell Squat",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2493,7 +2493,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Lateral Barbell Step-Up",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2507,7 +2507,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Lateral Squat",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2521,7 +2521,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Lateral Step-Up",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2535,7 +2535,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Leg Press",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2549,7 +2549,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Lunge",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2563,7 +2563,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Lying Machine Squat",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2577,7 +2577,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Machine Hack Squat",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2591,7 +2591,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Reverse Lunge",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2605,7 +2605,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Arm Barbell Side Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2619,7 +2619,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Arm Dumbbell Side Squat",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2633,7 +2633,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Leg Barbell Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2647,7 +2647,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Leg Box Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2661,7 +2661,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Leg Dumbbell Box Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2675,7 +2675,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Leg Dumbbell Squat",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2689,7 +2689,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Leg Squat",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2703,7 +2703,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Smith Machine Squat",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2717,7 +2717,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Split Squat",
     "Level": "Advanced",
     "Main Body Group": "Lower",
@@ -2731,7 +2731,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Step-Up",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2745,7 +2745,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Walking Lunge",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2759,7 +2759,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Alternating Leg Extension",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2773,7 +2773,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Leg Extension",
     "Level": "Beginner",
     "Main Body Group": "Lower",
@@ -2787,7 +2787,7 @@
   },
   {
     "Main Muscle Group": "Legs",
-    "Muscles Trained": "Legs - Quadriceps",
+    "Muscles Trained": "Quadriceps",
     "Exercise Name": "Single-Leg Extension",
     "Level": "Intermediate",
     "Main Body Group": "Lower",
@@ -2801,7 +2801,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Lower Back - Erector Spinae",
+    "Muscles Trained": "Erector Spinae",
     "Exercise Name": "Alternating Superman",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -2815,7 +2815,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Lower Back - Erector Spinae",
+    "Muscles Trained": "Erector Spinae",
     "Exercise Name": "Back Raise",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -2829,7 +2829,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Lower Back - Erector Spinae",
+    "Muscles Trained": "Erector Spinae",
     "Exercise Name": "Quadruped Alternating Superman",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -2843,7 +2843,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Lower Back - Erector Spinae",
+    "Muscles Trained": "Erector Spinae",
     "Exercise Name": "Superman",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -2857,7 +2857,7 @@
   },
   {
     "Main Muscle Group": "Back",
-    "Muscles Trained": "Lower Back - Erector Spinae",
+    "Muscles Trained": "Erector Spinae",
     "Exercise Name": "Superman Hold",
     "Level": "Beginner",
     "Main Body Group": "Core",
@@ -2871,7 +2871,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Arnold Dumbbell Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -2885,7 +2885,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Barbell Shoulder Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -2899,7 +2899,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Dumbbell Alternating Shoulder Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -2913,7 +2913,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Dumbbell Front Raise",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -2927,7 +2927,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Dumbbell Shoulder Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -2941,7 +2941,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Dumbbell Twisting Shoulder Press",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -2955,7 +2955,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Machine Shoulder Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -2969,7 +2969,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Seated Dumbbell Rear Delt Elbow Raise",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -2983,7 +2983,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Single-Arm Dumbbell Shoulder Press",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -2997,7 +2997,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Smith Machine Shoulder Press",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -3011,7 +3011,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Barbell Front Raise",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -3025,7 +3025,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Bent-Over Cable Rear Delt Raise",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -3039,7 +3039,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Bent-Over Dumbbell Rear Delt Raise",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -3053,7 +3053,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Cable Front Raise",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -3067,7 +3067,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Cable Lateral Raise",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -3081,7 +3081,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Dumbbell Lateral Raise",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3095,7 +3095,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Front Plate Raise",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3109,7 +3109,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Kneeling Single-Arm Cable Rear Delt Raise",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -3123,7 +3123,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Lying Dumbbell External Rotation",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3137,7 +3137,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Lying Dumbbell Rear Delt Raise",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3151,7 +3151,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Lying Single-Arm Dumbbell Rear Delt Raise",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3165,7 +3165,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Pec Deck Real Delt Extensions",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -3179,7 +3179,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Reverse Incline Dumbbell Rear Delt Raise",
     "Level": "Advanced",
     "Main Body Group": "Upper",
@@ -3193,7 +3193,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Seated Dumbbell Rear Delt Raise",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3207,7 +3207,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Delts/Traps",
+    "Muscles Trained": "Delts/Traps",
     "Exercise Name": "Single-Arm Cable Lateral Raise",
     "Level": "Intermediate",
     "Main Body Group": "Upper",
@@ -3221,7 +3221,7 @@
   },
   {
     "Main Muscle Group": "Shoulders",
-    "Muscles Trained": "Shoulders - Rotator Cuff",
+    "Muscles Trained": "Rotator Cuff",
     "Exercise Name": "Cable External Rotation",
     "Level": "Beginner",
     "Main Body Group": "Upper",
@@ -3765,4 +3765,4 @@
     "Recommended Reps": 10,
     "Ideal For": ""
   }
-]
+];
