@@ -1,7 +1,7 @@
 firebase.auth().onAuthStateChanged(async function (user) {
   let db = firebase.firestore();
 
-  myJson;
+  //   myJson;
 
   /*for (i = 0; i < myJson.length; i++) {
       var exercise = myJson[i];
@@ -25,6 +25,12 @@ firebase.auth().onAuthStateChanged(async function (user) {
   if (user) {
     // Signed in
     console.log("signed in");
+    document
+      .querySelector(".fitness-database-filters")
+      .classList.remove("display-none");
+    document
+      .querySelector(".fitness-database-filters")
+      .classList.add("display-show");
     db.collection("Users").doc(user.uid).set({
       name: user.displayName,
       email: user.email,
@@ -38,140 +44,122 @@ firebase.auth().onAuthStateChanged(async function (user) {
       .querySelector(".sign-out")
       .addEventListener("click", function (event) {
         console.log("sign out clicked");
+        document
+          .querySelector(".fitness-database-filters")
+          .classList.remove("display-show");
+        document
+          .querySelector(".fitness-database-filters")
+          .classList.add("display-none");
         firebase.auth().signOut();
         document.location.href = "index.html";
       });
 
-    {
-      document
-        .querySelector(`.my-workout`)
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          await db.collection("Users").doc(user.uid).set({
-            show: "my-workout",
-            name: user.displayName,
-            email: user.email,
+    SyncExercise();
+
+    document
+      .getElementById("muscleDropdown")
+      .addEventListener("click", async function (event) {
+        event.preventDefault();
+        let dropdowntext = event.target.innerHTML;
+        document.getElementById("muscleDropdowntext").innerHTML = dropdowntext;
+        SyncExercise();
+      });
+
+    document
+      .getElementById("equipmentDropdown")
+      .addEventListener("click", async function (event) {
+        event.preventDefault();
+        let dropdowntext = event.target.innerHTML;
+        document.getElementById(
+          "equipmentDropdowntext"
+        ).innerHTML = dropdowntext;
+        SyncExercise();
+      });
+
+    document
+      .getElementById("movementDropdown")
+      .addEventListener("click", async function (event) {
+        event.preventDefault();
+        let dropdowntext = event.target.innerHTML;
+        document.getElementById(
+          "movementDropdowntext"
+        ).innerHTML = dropdowntext;
+        SyncExercise();
+      });
+
+    document
+      .getElementById("levelDropdown")
+      .addEventListener("click", async function (event) {
+        event.preventDefault();
+        let dropdowntext = event.target.innerHTML;
+        document.getElementById("levelDropdowntext").innerHTML = dropdowntext;
+        SyncExercise();
+      });
+
+    function SyncExercise() {
+      let exerciseArray = [];
+      let exercisesArray = db
+        .collection("Exercises")
+        .get()
+        .then((querySnapshot) => {
+          let Muscle = document.getElementById("muscleDropdowntext").innerHTML;
+          let Equipment = document.getElementById("equipmentDropdowntext")
+            .innerHTML;
+          let Movement = document.getElementById("movementDropdowntext")
+            .innerHTML;
+          let Level = document.getElementById("levelDropdowntext").innerHTML;
+          querySnapshot.forEach((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            //console.log(doc.id, " => ", doc.data());
+
+            if (
+              (doc.data()["Main Muscle Group"] == Muscle ||
+                Muscle == "Primary Muscle Trained:") &&
+              (doc.data()["Type of equipment"] == Equipment ||
+                Equipment == "Type of Equipment:") &&
+              (doc.data()["Joint"] == Movement ||
+                Movement == "Type of Movement:") &&
+              (doc.data()["Level"] == Level || Level == "Level:")
+            ) {
+              exerciseArray.push(doc.data());
+            }
           });
-          document.querySelector(".header").innerHTML = "My Workout";
-          document.querySelector(".workout").classList.remove("display-none");
-          document
-            .querySelector(".fitness-database-filters")
-            .classList.remove("display-show");
-          document
-            .querySelector(".fitness-database-filters")
-            .classList.add("display-none");
+          document.querySelector(".exercises").innerHTML = "";
+          renderExercises(exerciseArray, ".exercises");
         });
     }
 
-    {
-      document
-        .querySelector(`.fitness-database`)
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          await db.collection("Users").doc(user.uid).set({
-            show: "fitness-database",
-            name: user.displayName,
-            email: user.email,
+    function SyncFavorites() {
+      let FavortiesArray = db
+        .collection("Favorites")
+        .get()
+        .then((querySnapshot) => {
+          querySnapshot.forEach((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            //console.log(doc.id, " => ", doc.data());
+
+            if (doc.data()["User ID"] == user.uid) {
+              console.log(
+                doc.data()["User ID"],
+                user.uid,
+                doc.data()["Exercise Name"]
+              );
+              let Buttontext = doc.data()["Exercise Name"] + "-buttonfav";
+              let Buttontext2 = doc.data()["Exercise Name"] + "-buttonrem";
+              console.log(document.getElementById(Buttontext));
+              document.getElementById(Buttontext).classList.add("display-none");
+              document
+                .getElementById(Buttontext2)
+                .classList.remove("display-none");
+              document
+                .getElementById(Buttontext2)
+                .classList.add("display-show");
+            }
           });
-          document.querySelector(".header").innerHTML = "Fitness Database";
-          document
-            .querySelector(".fitness-database-filters")
-            .classList.remove("display-none");
-          document.querySelector(".workout").classList.remove("display-show");
-          document.querySelector(".workout").classList.add("display-none");
         });
-
-      document
-        .querySelector(`.add-workout`)
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          document
-            .querySelector(".workout-form")
-            .classList.remove("display-none");
-          document
-            .querySelector(".add-workout")
-            .classList.remove("display-show");
-          document.querySelector(".add-workout").classList.add("display-none");
-        });
-
-      SyncExercise();
-
-      document
-        .getElementById("muscleDropdown")
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          let dropdowntext = event.target.innerHTML;
-          document.getElementById(
-            "muscleDropdowntext"
-          ).innerHTML = dropdowntext;
-          SyncExercise();
-        });
-
-      document
-        .getElementById("equipmentDropdown")
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          let dropdowntext = event.target.innerHTML;
-          document.getElementById(
-            "equipmentDropdowntext"
-          ).innerHTML = dropdowntext;
-          SyncExercise();
-        });
-
-      document
-        .getElementById("movementDropdown")
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          let dropdowntext = event.target.innerHTML;
-          document.getElementById(
-            "movementDropdowntext"
-          ).innerHTML = dropdowntext;
-          SyncExercise();
-        });
-
-      document
-        .getElementById("levelDropdown")
-        .addEventListener("click", async function (event) {
-          event.preventDefault();
-          let dropdowntext = event.target.innerHTML;
-          document.getElementById("levelDropdowntext").innerHTML = dropdowntext;
-          SyncExercise();
-        });
-
-      function SyncExercise() {
-        let exerciseArray = [];
-        let exercisesArray = db
-          .collection("Exercises")
-          .get()
-          .then((querySnapshot) => {
-            let Muscle = document.getElementById("muscleDropdowntext")
-              .innerHTML;
-            let Equipment = document.getElementById("equipmentDropdowntext")
-              .innerHTML;
-            let Movement = document.getElementById("movementDropdowntext")
-              .innerHTML;
-            let Level = document.getElementById("levelDropdowntext").innerHTML;
-            querySnapshot.forEach((doc) => {
-              // doc.data() is never undefined for query doc snapshots
-              //console.log(doc.id, " => ", doc.data());
-
-              if (
-                (doc.data()["Main Muscle Group"] == Muscle ||
-                  Muscle == "Primary Muscle Trained:") &&
-                (doc.data()["Type of equipment"] == Equipment ||
-                  Equipment == "Type of Equipment:") &&
-                (doc.data()["Joint"] == Movement ||
-                  Movement == "Type of Movement:") &&
-                (doc.data()["Level"] == Level || Level == "Level:")
-              ) {
-                exerciseArray.push(doc.data());
-              }
-            });
-            document.querySelector(".exercises").innerHTML = "";
-            renderExercises(exerciseArray);
-          });
-      }
     }
+
+    SyncFavorites();
   } else {
     // Signed out
     console.log("signed out");
@@ -207,38 +195,13 @@ window.onclick = function (event) {
   }
 };
 
-function WorkoutForm() {
-  document.querySelector(".add-workout").classList.remove("display-none");
-  document.querySelector(".workout-form").classList.remove("display-show");
-  document.querySelector(".workout-form").classList.add("display-none");
-  let ExcerciseID = parseFloat(
-    document.getElementById("Workout-Form").ExerciseID.value
-  );
-  let Datenow = parseFloat(document.getElementById("Workout-Form").date.value);
-  let Reps = parseFloat(document.getElementById("Workout-Form").Reps.value);
-  let SetNumber = parseFloat(document.getElementById("Workout-Form").Set.value);
-  let Weight = parseFloat(document.getElementById("Workout-Form").Weight.value);
-  firebase.auth().onAuthStateChanged(function (user) {
-    let UserID = user.uid;
-    let db = firebase.firestore();
-    db.collection("Workout").add({
-      "Exercise ID": ExcerciseID,
-      Date: Datenow,
-      Reps: Reps,
-      "Set Number": SetNumber,
-      "User ID": UserID,
-      Weight: Weight,
-    });
-  });
-}
-
-function renderExercises(exercisesArrays) {
+function renderExercises(exercisesArrays, ArrayClass) {
   for (let i = 0; i < exercisesArrays.length; i++) {
     let exercise = exercisesArrays[i];
-    document.querySelector(".exercises").insertAdjacentHTML(
+    document.querySelector(ArrayClass).insertAdjacentHTML(
       "beforeend",
       `
-  <tr>
+  <tr id=>
   <td class="px-6 py-4 whitespace-nowrap text-lg text-gray-500">
     ${exercise["Exercise Name"]}
   </td>
@@ -251,32 +214,50 @@ function renderExercises(exercisesArrays) {
   <td class="px-6 py-4 whitespace-nowrap text-lg text-gray-500">
   ${exercise["Recommended Reps"]}
   </td>
-  <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-    <a href="#" class="${exercise["Exercise Name"]}-button text-indigo-600 hover:text-indigo-900" onclick="AddtoFavourites()">Add to favourites</a>
+  <td id="${exercise["Exercise Name"]}-buttonfav" class=" px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+    <a href="#" class="${exercise["Exercise Name"]}-button text-indigo-600 hover:text-indigo-900" onclick="AddtoFavourites('${exercise["Exercise Name"]}')">Add to favourites</a>
+  </td>
+    <td id="${exercise["Exercise Name"]}-buttonrem" class="display-none px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+    <a href="#" class="${exercise["Exercise Name"]}-button text-indigo-600 hover:text-indigo-900" onclick=" RemoveFavourites('${exercise["Exercise Name"]}')">Remove from favourites</a>
   </td>
 </tr>`
     );
   }
 }
 
-function AddtoFavourites() {
+function AddtoFavourites(exerciseName) {
   firebase.auth().onAuthStateChanged(function (user) {
+    event.preventDefault();
     let UserID = user.uid;
-    console.log(UserID);
+    console.log(UserID, exerciseName);
     let db = firebase.firestore();
-    db.collection("Favorites").add({
+    db.collection("Favorites").doc(`${UserID}-${exerciseName}`).set({
       "User ID": UserID,
+      "Exercise Name": exerciseName,
     });
+    let Buttontext = exerciseName + "-buttonfav";
+    let Buttontext2 = exerciseName + "-buttonrem";
+    console.log(document.getElementById(Buttontext));
+    document.getElementById(Buttontext).classList.remove("display-show");
+    document.getElementById(Buttontext).classList.add("display-none");
+    document.getElementById(Buttontext2).classList.remove("display-none");
+    document.getElementById(Buttontext2).classList.add("display-show");
   });
 }
 
-function RemoveFavourites() {
+function RemoveFavourites(exerciseName) {
   firebase.auth().onAuthStateChanged(function (user) {
+    event.preventDefault();
     let UserID = user.uid;
-    console.log(UserID);
+    console.log(UserID, exerciseName);
     let db = firebase.firestore();
-    db.collection("Favorites").delete({
-      "User ID": UserID,
-    });
+    db.collection("Favorites").doc(`${UserID}-${exerciseName}`).delete();
+    let Buttontext = exerciseName + "-buttonrem";
+    let Buttontext2 = exerciseName + "-buttonfav";
+    console.log(document.getElementById(Buttontext));
+    document.getElementById(Buttontext).classList.remove("display-show");
+    document.getElementById(Buttontext).classList.add("display-none");
+    document.getElementById(Buttontext2).classList.remove("display-none");
+    document.getElementById(Buttontext2).classList.add("display-show");
   });
 }
