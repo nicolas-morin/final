@@ -1,7 +1,7 @@
 firebase.auth().onAuthStateChanged(async function (user) {
   let db = firebase.firestore();
 
-  myJson;
+//   myJson;
 
   /*for (i = 0; i < myJson.length; i++) {
       var exercise = myJson[i];
