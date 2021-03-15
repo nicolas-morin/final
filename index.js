@@ -25,6 +25,7 @@ firebase.auth().onAuthStateChanged(async function (user) {
   if (user) {
     // Signed in
     console.log("signed in");
+    document.querySelector(".my-workout").innerHTML = "My Workout";
     db.collection("Users").doc(user.uid).set({
       name: user.displayName,
       email: user.email,
